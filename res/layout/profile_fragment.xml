@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView
+        android:id="@+id/prof_name"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_height="40dp"
+        android:layout_gravity="center" />
+    <ImageView
+        android:contentDescription="@string/profilepicture"
+        android:id="@+id/prof_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/time2tweettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="@string/tapbutton"
+        android:visibility="invisible"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/tweet"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/fetchScreenname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/signout"
+        android:src="@drawable/fetch_button" />
+
+    <ImageView
+        android:contentDescription="@string/tweet"
+        android:id="@+id/tweet"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/tweet_button"
+        android:layout_gravity="center" />
+    <ImageView
+        android:contentDescription="@string/signout"
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="60dp"
+        android:src="@drawable/signout_button"
+        android:layout_gravity="center" />    
+
+</LinearLayout>
